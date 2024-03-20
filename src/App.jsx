@@ -2,26 +2,26 @@ import React from 'react';
 import Arreglo from './Componentes/Arreglo';
 
 const datos = [
-  { id: 1, nombre: "luis Garcia", rol: "Director" },
-  { id: 2, nombre: "Henry Bastidas", rol: "Instructor" },
-  { id: 3, nombre: "Guisella Nathali Jaramillo", rol: "Aprendiz SENA" },
-  { id: 4, nombre: "David Astaiza ", rol: "Instructor" },
-  { id: 5, nombre: "Jesus Paladines", rol: "Aprendiz SENA" },
-  { id: 6, nombre: "Jairo Muñoz", rol: "Aprendiz SENA" },
-  { id: 7, nombre: "Camilo Rojas", rol: "Aprendiz SENA" },
-  { id: 8, nombre: "Laura Garcia", rol: "Aprendiz SENA" },
-  { id: 9, nombre: "Fernanda Martinez", rol: "Aprendiz SENA" },
-  { id: 10, nombre: "Andres Perez", rol: "Instructor" },
-  { id: 11, nombre: "Carlos Rodriguez", rol: "Aprendiz SENA" },
-  { id: 12, nombre: "Diana Mendez", rol: "Aprendiz SENA" },
-  { id: 13, nombre: "Maria Suarez", rol: "Aprendiz SENA" },
-  { id: 14, nombre: "Julian Herrera", rol: "Instructor" },
-  { id: 15, nombre: "Sandra Lopez", rol: "Aprendiz SENA" },
-  { id: 16, nombre: "Mateo Gomez", rol: "Aprendiz SENA" },
-  { id: 17, nombre: "Alejandro Ramirez", rol: "Aprendiz SENA" },
-  { id: 18, nombre: "Juan Velez", rol: "Instructor" },
-  { id: 19, nombre: "Esteban Diaz", rol: "Aprendiz SENA" },
-  { id: 20, nombre: "Gabriela Castro", rol: "Aprendiz SENA" }
+  { id: 1, nombre: "Sair Meza", rol: "Director" },
+  { id: 2, nombre: "Alexander Meza", rol: "Instructor" },
+  { id: 3, nombre: "Isabella Meza", rol: "Aprendiz SENA" },
+  { id: 4, nombre: "Sandra Tovar", rol: "Instructora" },
+  { id: 5, nombre: "Sergio Rodriguez", rol: "Aprendiz SENA" },
+  { id: 6, nombre: "Viviana Muñoz", rol: "Aprendiz SENA" },
+  { id: 7, nombre: "Camilo Santana", rol: "Aprendiz SENA" },
+  { id: 8, nombre: "Libardo Perez", rol: "Aprendiz SENA" },
+  { id: 9, nombre: "Fernando Guzman", rol: "Aprendiz SENA" },
+  { id: 10, nombre: "Andrea Gomez", rol: "Instructor" },
+  { id: 11, nombre: "Camila Ariztizabal", rol: "Aprendiz SENA" },
+  { id: 12, nombre: "Dilan Gutierrez", rol: "Aprendiz SENA" },
+  { id: 13, nombre: "Manuel Santos", rol: "Aprendiz SENA" },
+  { id: 14, nombre: "Jose Herazo", rol: "Instructor" },
+  { id: 15, nombre: "Santiago Alarcon", rol: "Aprendiz SENA" },
+  { id: 16, nombre: "Maritza Benitez", rol: "Aprendiz SENA" },
+  { id: 17, nombre: "Julio Bravo", rol: "Aprendiz SENA" },
+  { id: 18, nombre: "Guillermo Pedrozo", rol: "Instructor" },
+  { id: 19, nombre: "Alfredo Diaz", rol: "Aprendiz SENA" },
+  { id: 20, nombre: "Melba Orejuela", rol: "Aprendiz SENA" }
 ];
 
 

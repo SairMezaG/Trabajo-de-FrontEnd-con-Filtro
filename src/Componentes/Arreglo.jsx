@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
+import Tabla from './Tabla';
 import Filtro from './Filtro';
+import Select from './Select';
+import Registros from './Registros';
 
 
 
@@ -19,7 +22,7 @@ const Arreglo = ({ datos }) => {
       <br />
       <Tabla datos={filtroDatos} />
       
-      <InformacionRegistros registrosActuales={filtroDatos.length} totalRegistros={datos.length} />
+      <Registros registrosActuales={filtroDatos.length} totalRegistros={datos.length} />
     </div>
   );
 }
