@@ -4,7 +4,7 @@ import React from 'react'
 const Registros = ({ cantidadRegistros, totalRegistros }) => {
     return (
       <div className='infoRegistros'>
-        ... {cantidadRegistros} de {totalRegistros} registros.
+        {cantidadRegistros} de {totalRegistros} registros.
       </div>
     );
   }

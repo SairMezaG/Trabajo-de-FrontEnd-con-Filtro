@@ -1,4 +1,6 @@
 import React from 'react';
+import "../Estilos/Tabla.css";
+import BotonEliminar from './BotonEliminar';
 
 
 const Tabla = ({ datos }) => {
@@ -9,6 +11,7 @@ const Tabla = ({ datos }) => {
           <th>ID</th>
           <th>NOMBRE</th>
           <th>DESCRIPCIÓN</th>
+          <th>ACCIONES</th>
         </tr>
       </thead>
       <tbody>
@@ -17,10 +20,14 @@ const Tabla = ({ datos }) => {
             <td>{persona.id}</td>
             <td>{persona.nombre}</td>
             <td>{persona.rol}</td>
+            <td><BotonEliminar/></td>
           </tr>
         ))}
       </tbody>
+      
+
     </table>
+    
   );
 }
 
