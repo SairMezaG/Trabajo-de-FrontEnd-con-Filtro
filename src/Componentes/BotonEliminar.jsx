@@ -1,21 +1,15 @@
+import React from 'react';
+import "../Estilos/BotonEliminar.css";
 
-
-function BotonEliminar() {
-    function handleClick() {
-  
-      
-
-        console.log("Diste click en eliminar")
-        
-    }
-
+function BotonEliminar({ onClick }) {
   return (
     <div>
-       <button onClick={handleClick}> Eliminar </button>
+       <button onClick={onClick}> Eliminar </button>
     </div>
   )
 }
 
 export default BotonEliminar; 
+
 
 

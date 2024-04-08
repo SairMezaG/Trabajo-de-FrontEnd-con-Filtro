@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Arreglo from './Componentes/Arreglo';
 
 const datos = [
@@ -21,19 +21,30 @@ const datos = [
   { id: 17, nombre: "Julio Bravo", rol: "Aprendiz SENA" },
   { id: 18, nombre: "Guillermo Pedrozo", rol: "Instructor" },
   { id: 19, nombre: "Alfredo Diaz", rol: "Aprendiz SENA" },
-  { id: 20, nombre: "Melba Orejuela", rol: "Aprendiz SENA" }
+  { id: 20, nombre: "Camilo Guerrero", rol: "Aprendiz SENA" },
+  
 ];
 
-
 function App() {
+  const [data, setData] = useState(datos);
+
+  const eliminarRegistro = (id) => {
+    const newData = data.filter(item => item.id !== id);
+    setData(newData);
+  };
+
   return (
     <div className="App">
-      <Arreglo datos={datos} />
+      <Arreglo datos={data} eliminarRegistro={eliminarRegistro} />
     </div>
   );
 }
 
-export default App;
+export default App; 
+
+
+
+
 
 
 
